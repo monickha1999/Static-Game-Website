@@ -1,0 +1,66 @@
+body{
+	background-image: url('game.jpg');
+	background-size: 100% 100%;
+}
+h1{
+	width: 100%;
+	color: red;
+	font-family: Lato;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px black;
+}
+h2{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	margin-top: 80px;
+	font-family: Lato;
+	text-shadow: 1px 1px black;
+}
+table{
+	font-family: Lato;
+	border: 2px solid red;
+	width: 60%;
+	text-align: center;
+	margin-top: 80px;
+}
+th{
+	font-size: 20px;
+	text-align: left;
+	background-color: yellow;
+	padding: 8px;
+	background-color: yellow;
+
+}
+td{
+	font-size: 15px;
+	text-align: left;
+	padding: 8px;
+	color: white;
+}
+tr:nth-child(odd){
+	background-color: red;
+}
+tr:nth-child(even){
+	background-color: green;
+}
+.container{
+	text-align: center;
+	background-color: purple;
+	color: white;
+	text-shadow: 1px 1px black;
+	padding: 1px;
+	margin-top: 10px;
+	border: solid;
+}
+.footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border: solid;
+
+
+	
+	text-align: center;
+}
